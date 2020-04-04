@@ -1,0 +1,88 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #e1f2f2;
+  margin-top:30px;
+
+}
+  .table {
+    width:50%;
+    margin:2% auto;
+    background: #EFEFEF;
+    padding:4em;
+    border-radius: 8px;
+    background: url(https://covid19.saglik.gov.tr/img/korona-bg-3.svg);
+    background-color: #00a6a3;
+    color: white;
+    height:220px;
+  }
+
+  .table div {
+    background-color: #008d8a;
+    padding: 10px;
+    font-size:1em;
+    margin-bottom: 10px;
+    width: 45%;
+    position: relative;
+    margin-right:2%;
+    float:left;
+
+  }
+
+
+  .ule {
+    width: 17%;
+    float:left;
+    margin:2%;
+    padding:2em;
+    background: #00716f;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .ule a {
+    color: white;
+    text-decoration: none;
+  }
+  .select {
+    position:relative;
+    width: 50%;
+    margin:0 auto;
+  }
+
+  #dynamic_select {
+    padding:3em;
+    width:100%;
+    border-radius: 8px;
+  }
+  @media only screen and (max-width: 1000px) {
+    .ule {
+      width: 90%;
+      float:left;
+      margin:2%;
+      padding:1em;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .table {
+      width:50%;
+      margin:1% auto;
+      background: #EFEFEF;
+      padding:4em;
+      border-radius: 8px;
+      background: url(https://covid19.saglik.gov.tr/img/korona-bg-3.svg);
+      background-color: #00a6a3;
+      color: white;
+      height:320px;
+    }
+    .table div {
+      background-color: #008d8a;
+      padding: 10px;
+      font-size:1em;
+      margin-bottom: 10px;
+      width: 96%;
+      position: relative;
+      margin-right:2%;
+      float:left;
+
+    }
+}

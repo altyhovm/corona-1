@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^location/([A-Za-z0-9-]+) location.php?location=$1 [L]
+RewriteRule ^([A-Za-z0-9-]+)-([0-9]+).html location.php?location=$2&sef=$1 [L]
