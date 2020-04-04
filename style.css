@@ -30,14 +30,18 @@ body {
 
 
   .ule {
-    width: 17%;
+    width: 14.5%;
     float:left;
-    margin:2%;
+    margin:1%;
     padding:2em;
     background: #00716f;
     color: white;
     border-radius: 8px;
     text-align: center;
+
+  }
+  .ule:nth-child(-n+16){
+    background: #990000;
   }
   .ule a {
     color: white;
@@ -46,7 +50,7 @@ body {
   .select {
     position:relative;
     width: 50%;
-    margin:0 auto;
+    margin:20px auto;
   }
 
   #dynamic_select {
